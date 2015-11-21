@@ -1,10 +1,10 @@
 <?php
 
-namespace Babanesma\Routing;
+namespace Babanesma\Routing\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class RouterFacade extends Facade
+class Route extends Facade
 {
     protected static function getFacadeAccessor()
     {
